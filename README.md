@@ -1,5 +1,14 @@
 # redis-demo
 https://github.com/andymccurdy/redis-py 模块常用操作记录
 
-# 使用
+# 安装
 pipenv install -r requirements.txt
+
+# 运行
+pipevn run python redis_operation.py
+or
+pipenv shell
+python redis_operation.py
+
+# 删除pipenv创建的虚拟环境
+pipenv --rm
