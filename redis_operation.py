@@ -56,3 +56,6 @@ import json
 json_str = json.dumps(val)
 conn.hset('k2', 'd2', json_str)
 print(conn.hget('k2', 'd2'))
+
+
+
