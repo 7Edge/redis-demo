@@ -4,6 +4,9 @@
 # File: user_redis_pool
 # Date: 2/14/2019
 # redis-py操作
+"""
+初识redis的操作，给每个key设置后，注意对key的销毁，避免文件重复执行，影响下一次执行。
+"""
 
 import redis
 from redis_pool import rpool
@@ -11,6 +14,7 @@ from redis_pool import rpool
 # 每次操作都建立一次TCP连接并关掉
 r = redis.Redis(host='127.0.0.1', port='6379')
 r.set('time', '2018-10-10')
+r.expire('time', 7200)
 print(r.get('time'))
 
 # 使用redis连接池
