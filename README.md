@@ -12,3 +12,6 @@ python redis_operation.py
 
 # 删除pipenv创建的虚拟环境
 pipenv --rm
+
+# 更新日志
+Date: 8/26/2019 增加flask应用的redis连接池模块：redispool.py。具体使用查看redispool中说明。
