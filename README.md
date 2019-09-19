@@ -14,5 +14,5 @@ python redis_operation.py
 pipenv --rm
 
 # 更新日志
-Date: 8/26/2019 增加flask应用的redis连接池模块：redispool.py。具体使用查看redispool中说明。
-Date: 9/19/2019 新增对pipeline中事务结合的源码理解以及watch命令和pipeline结合使用。
+1. Date: 8/26/2019 增加flask应用的redis连接池模块：redispool.py。具体使用查看redispool中说明。
+2. Date: 9/19/2019 新增对pipeline中事务结合的源码理解以及watch命令和pipeline结合使用。
